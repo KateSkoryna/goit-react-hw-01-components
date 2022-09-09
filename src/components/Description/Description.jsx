@@ -5,7 +5,7 @@ export const Description = ({ name, tag, location, avatar }) => {
     <div>
       <img src={avatar} alt="User avatar" className="avatar" />
       <p className="name">{name}</p>
-      <p className="tag">{tag}</p>
+      <p className="tag">&#64;{tag}</p>
       <p className="location">{location}</p>
     </div>
   );

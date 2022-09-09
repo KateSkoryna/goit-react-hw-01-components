@@ -11,7 +11,7 @@ export const Stats = ({ stats: data }) => {
     );
     statsBlock.push(text);
   }
-  return <ul>{statsBlock}</ul>;
+  return <ul className="stats">{statsBlock}</ul>;
 };
 
 Stats.propTypes = PropTypes.shape.isRequired;
