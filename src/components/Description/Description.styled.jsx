@@ -4,7 +4,7 @@ export const DescriptionStyle = styled.div`
   width: 100%;
   background-color: #fff;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   border-radius: 6px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -33,5 +33,8 @@ export const TextBox = styled.p`
   font-weight: 400;
   color: #c4cad0;
   text-align: center;
-  margin-bottom: 10px;
+
+  &:nth-of-type(even) {
+    margin-bottom: 10px;
+  }
 `;
